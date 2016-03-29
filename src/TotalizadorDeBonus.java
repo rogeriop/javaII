@@ -9,4 +9,5 @@ public class TotalizadorDeBonus {
 	public double getTotal() {
 		return this.total;
 	}
+	
 }
