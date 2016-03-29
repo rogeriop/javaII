@@ -1,5 +1,5 @@
 
-class Conta {
+abstract class Conta {
     protected double saldo;
 
     public double getSaldo() {
@@ -14,9 +14,7 @@ class Conta {
         this.saldo -= valor;
     }
     
-    public void atualiza(double taxa) {
-        this.saldo += this.saldo * taxa;
-    }
+    public abstract void atualiza(double taxa);
     
     public void setSaldo(double saldo) {
     	this.saldo = saldo;
