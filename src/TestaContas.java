@@ -1,6 +1,6 @@
 
         public class TestaContas {
-            public static void main(String[] args) {
+            public static void main(String[] args) throws ValorInvalidoException {
                 Conta c = new ContaCorrente();
                 ContaCorrente cc = new ContaCorrente();
                 ContaPoupanca cp = new ContaPoupanca();

@@ -1,6 +1,6 @@
 
         public class TestaAtualizadorDeContas {
-            public static void main(String[] args) {
+            public static void main(String[] args) throws ValorInvalidoException {
                 Conta c = new ContaCorrente();
                 Conta cc = new ContaCorrente();
                 Conta cp = new ContaPoupanca();

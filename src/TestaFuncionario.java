@@ -1,7 +1,7 @@
 
 public class TestaFuncionario {
 	public static void main(String[] args) {
-		Funcionario joao = new Funcionario();
+		Funcionario joao = new Gerente();
 		joao.setSalario(1000.0);
 	
 		System.out.println(joao.getBonus());

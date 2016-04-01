@@ -1,6 +1,6 @@
 
 public class TestaTributavel {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ValorInvalidoException {
         ContaCorrente cc = new ContaCorrente();
         cc.deposita(100);
         System.out.println(cc.calculaTributos());
